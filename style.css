@@ -90,3 +90,34 @@ body {
     background-color: rgb(14, 85, 82);
     cursor: pointer;
 }
+
+
+@media (max-width: 600px) {
+    #panel{
+        width: 100%;
+        height: 100%;
+    }
+
+    #panel-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+     .elem h3{
+        font-size: 4.3vw;
+    }
+
+
+    .elem .box{
+        font-size: 4.3vw;
+    }
+
+    #panel-bottom{
+        width: 100%;
+        height: 1500px;
+    }
+}
